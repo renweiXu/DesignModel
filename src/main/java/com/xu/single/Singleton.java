@@ -1,0 +1,16 @@
+package com.xu.single;
+
+/**
+ * 使用枚举
+ * 不仅能避免多线程同步问题，而且还能防止反序列化重新创建新的对象
+ * @author xurw
+ *
+ */
+public enum Singleton {
+	
+	INSTACN;
+	
+	public void whateverMethod(){
+		
+	}
+}
